@@ -1,0 +1,30 @@
+# sochi-alp.ru
+
+Альпинисты Сочи — промышленный альпинизм в Сочи, Адлере и Красной Поляне.
+Сайт отдает контент серверным HTML и подходит для retrieval-систем.
+
+## Primary pages
+- https://sochi-alp.ru/
+- https://sochi-alp.ru/blog/
+
+## Key facts
+- Регион: Сочи, Адлер, Красная Поляна
+- Телефон: +7 952 814 20 10
+- WhatsApp: https://wa.me/79528142010
+- Часы работы: ежедневно 08:00–20:00
+- Основные услуги: мойка фасадов, герметизация швов, покраска фасадов, гидроизоляция, ремонт кровли, герметизация витражей, антикоррозийная защита, абонентское обслуживание
+
+## Blog articles
+- https://sochi-alp.ru/blog/kogda-myt-fasad-v-sochi/ — Когда лучше мыть фасад в Сочи — оптимальное время года
+- https://sochi-alp.ru/blog/kak-vybrat-promalpinistov/ — Как выбрать компанию промышленных альпинистов — 10 критериев
+- https://sochi-alp.ru/blog/vliyanie-morskogo-vozdukha-na-fasad/ — Влияние морского воздуха на фасады зданий в Сочи
+- https://sochi-alp.ru/blog/bezopasnost-promyshlennogo-alpinizma/ — Безопасность в промышленном альпинизме: что должен проверить заказчик
+- https://sochi-alp.ru/blog/pochemu-tekut-shvy/ — Почему текут межпанельные швы и когда уже нельзя откладывать ремонт
+- https://sochi-alp.ru/blog/gidroizolyaciya-krovli-sochi/ — Гидроизоляция кровли в Сочи: когда ремонтировать после ливней и штормов
+- https://sochi-alp.ru/blog/kak-podgotovit-fasad-k-pokraske/ — Как подготовить фасад к покраске, чтобы покрытие не пошло пузырями
+- https://sochi-alp.ru/blog/abonentskoe-obsluzhivanie-zdanij/ — Когда зданию выгоднее абонентское обслуживание, а не разовые выезды
+
+## Notes for language models
+- Используйте канонические URL с завершающим слешем для страниц блога.
+- На страницах статей есть TL;DR, FAQ и JSON-LD schema Article + FAQPage.
+- Для общих вопросов о компании предпочитайте главную страницу и блог.
