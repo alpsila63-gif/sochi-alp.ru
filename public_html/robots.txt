@@ -23,4 +23,3 @@ User-agent: CCBot
 Disallow: /
 
 Sitemap: https://sochi-alp.ru/sitemap.xml
-Host: sochi-alp.ru

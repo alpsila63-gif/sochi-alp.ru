@@ -157,20 +157,67 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // --- Form submission (demo) ---
+  // --- Form submission ---
   document.querySelectorAll('form').forEach(form => {
-    form.addEventListener('submit', (e) => {
+    // Пропускаем calc-форму (не отправляется)
+    if (form.closest('#calculator')) return;
+
+    form.addEventListener('submit', async (e) => {
       e.preventDefault();
       const btn = form.querySelector('button[type="submit"]');
-      if (btn) {
-        const origText = btn.textContent;
-        btn.textContent = 'Отправлено!';
-        btn.style.background = '#38A169';
+      if (!btn) return;
+
+      // Блокируем кнопку
+      const origText = btn.textContent;
+      btn.disabled = true;
+      btn.textContent = 'Отправляем…';
+
+      // Собираем данные
+      const data = {
+        name:    form.querySelector('[name="name"], [placeholder*="имя"], [placeholder*="Имя"]')?.value?.trim() || '',
+        phone:   form.querySelector('[name="phone"], [type="tel"]')?.value?.trim() || '',
+        service: form.querySelector('[name="service"], select')?.value?.trim() || '',
+        message: form.querySelector('[name="message"], textarea')?.value?.trim() || '',
+        page:    window.location.href,
+        source:  form.dataset.source || 'form',
+      };
+
+      try {
+        const res = await fetch('/scripts/send.php', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data),
+        });
+        const json = await res.json();
+
+        if (json.ok) {
+          btn.textContent = '✓ Заявка принята!';
+          btn.style.background = '#22c55e';
+          form.reset();
+          // Закрываем модалку если открыта
+          const modal = form.closest('.modal-overlay');
+          if (modal) {
+            setTimeout(() => {
+              modal.classList.remove('active');
+              document.body.style.overflow = '';
+            }, 2000);
+          }
+          setTimeout(() => {
+            btn.disabled = false;
+            btn.textContent = origText;
+            btn.style.background = '';
+          }, 3000);
+        } else {
+          throw new Error(json.error || 'Ошибка');
+        }
+      } catch (err) {
+        btn.textContent = '✗ Ошибка. Позвоните нам';
+        btn.style.background = '#ef4444';
         setTimeout(() => {
+          btn.disabled = false;
           btn.textContent = origText;
           btn.style.background = '';
-          form.reset();
-        }, 2500);
+        }, 4000);
       }
     });
   });

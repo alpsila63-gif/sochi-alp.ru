@@ -1,43 +1,415 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Главная -->
   <url>
     <loc>https://sochi-alp.ru/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-04-02</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Основные разделы -->
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://sochi-alp.ru/ceny/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/portfolio/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/o-kompanii/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/kontakty/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/licenzii/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/politika-konfidencialnosti/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Целевые аудитории -->
+  <url>
+    <loc>https://sochi-alp.ru/dlya-otelej/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/dlya-upravlyayushchih-kompanij/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/dlya-zastrojshchikov/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Гео-страницы -->
+  <url>
+    <loc>https://sochi-alp.ru/promyshlennyj-alpinizm-adler/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/promyshlennyj-alpinizm-dagomys/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/promyshlennyj-alpinizm-esto-sadok/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/promyshlennyj-alpinizm-hosta/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/promyshlennyj-alpinizm-krasnaya-polyana/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/promyshlennyj-alpinizm-lazarevskoe/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Услуги: Фасадные работы -->
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/fasadnye-raboty/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/mojka-fasadov/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/pokraska-fasadov/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/remont-fasadov/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/oblicovka-fasadov/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/obsledovanie-fasadov/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/chistka-fasadov-ot-vysolov/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/uteplenie-fasadov/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/uteplenie-kvartiry/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Услуги: Герметизация -->
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/germetizaciya/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/germetizaciya-mezhpanelnyh-shvov/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/germetizaciya-deformacionnyh-shvov/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/germetizaciya-vitrazhnogo-ostekleniya/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Услуги: Гидроизоляция -->
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/gidroizolyaciya-fasadov/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/gidroizolyaciya-krovli/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Услуги: Кровля -->
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/krovelnye-raboty/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/remont-krovli/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/chistka-krovli/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/sistemy-bezopasnosti-krovli/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Услуги: Клининг и мойка -->
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/klining/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/mojka-okon/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/mojka-okon-kvartir/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/mojka-posle-stroitelstva/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/mojka-svetovyh-fonarej/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Услуги: Покраска и антикоррозия -->
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/pokraska-i-antikorroziya/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/pokraska-metallokonstrukcij/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/pokraska-rezervuarov/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/pokraska-trub/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Услуги: Монтажные работы -->
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/montazhnye-raboty/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/montazh-kondicionerov/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/montazh-antenn/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/montazh-reklamy/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/montazh-osveshcheniya/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/montazh-kozyrkov/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/montazh-oborudovaniya/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/montazh-vodostokov/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/montazh-vodostochnyh-trub/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Услуги: Обслуживание и специальные -->
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/abonentskoe-obsluzhivanie/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/avarijnye-raboty/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/specialnye-raboty/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/protivopozharnye-raboty/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/raboty-na-mostah/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/remont-balkonov/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/spil-derevev/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/foto-video-semka/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/moskitnye-setki/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Услуги: Для клиентов -->
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/chastnye-klienty/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/kurortnaya-infrastruktura/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/obsluzhivanie-gornolyzhnyh-kurortov/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/obsluzhivanie-otelej/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sochi-alp.ru/uslugi/obsluzhivanie-restoranov/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Блог -->
+  <url>
     <loc>https://sochi-alp.ru/blog/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-04-02</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://sochi-alp.ru/blog/kogda-myt-fasad-v-sochi/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-04-01</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sochi-alp.ru/blog/kak-vybrat-promalpinistov/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-04-01</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sochi-alp.ru/blog/vliyanie-morskogo-vozdukha-na-fasad/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-04-01</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sochi-alp.ru/blog/bezopasnost-promyshlennogo-alpinizma/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-04-01</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sochi-alp.ru/blog/pochemu-tekut-shvy/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-04-01</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sochi-alp.ru/blog/gidroizolyaciya-krovli-sochi/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-04-01</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sochi-alp.ru/blog/kak-podgotovit-fasad-k-pokraske/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-04-01</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sochi-alp.ru/blog/abonentskoe-obsluzhivanie-zdanij/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-04-01</lastmod>
+    <priority>0.6</priority>
   </url>
 </urlset>
